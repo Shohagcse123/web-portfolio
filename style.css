@@ -9,7 +9,7 @@ h1{
 h2{
     font-size: 40px;
 }
-#highlight{
+.highlight{
     color: orange;
 }
 .half-width{
@@ -21,19 +21,14 @@ h2{
 .half-width img{
     width: 100%;
 }
-#btn{
+.btn{
     background-image: linear-gradient(45deg , lightsalmon, tomato);
     padding: 10px 20px;
     color: white;
     font-weight: bold;
     
 }
-#btn2{
-    background-image: linear-gradient(45deg , lightsalmon, tomato);
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-}
+
 .top-part{
     background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
@@ -50,7 +45,33 @@ section{
 .down-part{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
 .down-part img{
     padding-top: 10%;
+}
+.single-exp{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 15px;
+    height: 70%;
+    background-color: white;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+   
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#full-stack1{
+    
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg , blue,cyan);
+    border-image-slice: 1;
 }
